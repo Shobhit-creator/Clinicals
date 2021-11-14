@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'clinicalsdb',
-        'USER': 'root',
-        'PASSWORD': 'test',
+        'USER': DB_USER,
+        'PASSWORD': DB_USER_PASSWORD,
     }
 }
 
